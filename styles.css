@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('The-Walking-Dead-Destinies-1024x576.webp');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features li {
+    margin: 20px;
+    list-style: none;
+}
+
+.features img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Add responsive design for mobile devices */
+@media only screen and (max-width: 768px) {
+.hero {
+
+        height: 50vh;
+    }
+.features {
+        flex-direction: column;
+    }
+.features li {
+        margin: 10px;
+    }
+}
